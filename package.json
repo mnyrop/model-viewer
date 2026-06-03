@@ -1,0 +1,17 @@
+{
+  "name": "marii-model-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server src -o -c-1"
+  },
+  "author": "mnyrop",
+  "license": "ISC",
+  "dependencies": {
+    "@google/model-viewer": "^4.3.0",
+    "http-server": "^14.1.1",
+    "three": "^0.184.0"
+  }
+}
